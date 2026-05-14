@@ -7,5 +7,11 @@ public class Main {
         persona.presentarse();
         estudiante.presentarse();
         profesor.presentarse();
+        System.out.println();
+
+        Vehiculo vehiculo = new Vehiculo(85);
+        Vehiculo biciVehiculo = new Bicicleta(15);
+        vehiculo.mensaje();
+        biciVehiculo.mensaje();
     }
 }
